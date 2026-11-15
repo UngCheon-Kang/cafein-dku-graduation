@@ -1,0 +1,27 @@
+# 비밀값 — 절대 커밋 금지
+.env
+.env.local
+.env.production
+credentials.json
+**/application.yaml
+**/application-prod.yaml
+*.keystore
+*.jks
+*.p8
+*.p12
+
+# 의존성 / 빌드 산출물
+node_modules/
+build/
+dist/
+.gradle/
+app/android/
+app/ios/
+*.apk
+*.aab
+*.ipa
+
+# 에디터 / OS
+.idea/
+.vscode/
+.DS_Store

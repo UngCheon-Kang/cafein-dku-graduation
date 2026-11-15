@@ -1,0 +1,30 @@
+{
+  "cli": {
+    "version": ">= 22.0.0",
+    "appVersionSource": "local"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://crccafe.com"
+      }
+    },
+    "production": {
+      "autoIncrement": false,
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://crccafe.com"
+      },
+      "android": {
+        "credentialsSource": "local"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
