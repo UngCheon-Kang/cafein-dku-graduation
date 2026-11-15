@@ -1,7 +1,7 @@
 # CAFEIN — 카공 특화 카페 리뷰·커뮤니티 서비스
 
 > 단국대학교 소프트웨어학과 졸업작품 (2026)
-> 실제 운영 중인 서비스입니다. https://crccafe.com
+> 실제 운영 중인 서비스입니다. [Google Play](https://play.google.com/store/apps/details?id=com.kangungcheon.crcapp) · [App Store](https://apps.apple.com/kr/app/id6805019448)
 
 카페에서 공부하는 사람(카공족)을 위해 **와이파이 / 콘센트 / 좌석 / 소음** 네 가지 지표로
 카페를 찾고 공유하는 모바일 서비스입니다.
@@ -15,7 +15,7 @@ App Store와 Google Play에 정식 출시되어 실제 사용자가 쓰고 있�
 | **홍보 영상** | https://www.youtube.com/watch?v=0wDHG3WVdi8 |
 | **포스터** | [PDF](docs/poster/CAFEIN_poster_90x140.pdf) · [PNG](docs/poster/CAFEIN_poster_90x140.png) · [JPG](docs/poster/CAFEIN_poster_90x140.jpg) |
 | **결과보고서** | [PDF](docs/CAFEIN_결과보고서.pdf) |
-| 서비스 | https://crccafe.com · [Google Play](https://play.google.com/store/apps/details?id=com.kangungcheon.crcapp) |
+| **앱 내려받기** | [Google Play](https://play.google.com/store/apps/details?id=com.kangungcheon.crcapp) · [App Store](https://apps.apple.com/kr/app/id6805019448) |
 
 | 팀 | 노랑토토 |
 |---|---|
@@ -26,7 +26,7 @@ App Store와 Google Play에 정식 출시되어 실제 사용자가 쓰고 있�
 
 | 항목 | 현황 |
 |---|---|
-| 서비스 주소 | https://crccafe.com (AWS 상시 운영) |
+| 서버 | `crccafe.com` — AWS 상시 운영 (앱 전용 API 서버이며 웹 페이지는 제공하지 않습니다) |
 | 배포 | **App Store · Google Play 정식 출시** (v1.0.3) |
 | 테스트 | 비공개 테스트 12명 이상 · 2주 이상 실사용 후 피드백 반영 → 정식 출시 |
 | 플랫폼 | Android · iOS |
