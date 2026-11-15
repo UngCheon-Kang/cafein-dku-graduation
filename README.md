@@ -1,7 +1,7 @@
 # CAFEIN — 카공 특화 카페 리뷰·커뮤니티 서비스
 
 > 단국대학교 소프트웨어학과 졸업작품 (2026)
-> 실제 운영 중인 서비스입니다. [Google Play](https://play.google.com/store/apps/details?id=com.kangungcheon.crcapp) · [App Store](https://apps.apple.com/kr/app/id6805019448)
+> 실제 운영 중인 서비스입니다. [Google Play](https://play.google.com/store/apps/details?id=com.kangungcheon.crcapp) · [App Store](https://apps.apple.com/kr/app/%EC%B9%B4%ED%8E%98%EC%9D%B8-%EC%B9%B4%EA%B3%B5-%EC%B9%B4%ED%8E%98/id6805019448)
 
 카페에서 공부하는 사람(카공족)을 위해 **와이파이 / 콘센트 / 좌석 / 소음** 네 가지 지표로
 카페를 찾고 공유하는 모바일 서비스입니다.
@@ -15,7 +15,7 @@ App Store와 Google Play에 정식 출시되어 실제 사용자가 쓰고 있�
 | **홍보 영상** | https://www.youtube.com/watch?v=0wDHG3WVdi8 |
 | **포스터** | [PDF](docs/poster/CAFEIN_poster_90x140.pdf) · [PNG](docs/poster/CAFEIN_poster_90x140.png) · [JPG](docs/poster/CAFEIN_poster_90x140.jpg) |
 | **결과보고서** | [PDF](docs/CAFEIN_결과보고서.pdf) |
-| **앱 내려받기** | [Google Play](https://play.google.com/store/apps/details?id=com.kangungcheon.crcapp) · [App Store](https://apps.apple.com/kr/app/id6805019448) |
+| **앱 내려받기** | [Google Play](https://play.google.com/store/apps/details?id=com.kangungcheon.crcapp) · [App Store](https://apps.apple.com/kr/app/%EC%B9%B4%ED%8E%98%EC%9D%B8-%EC%B9%B4%EA%B3%B5-%EC%B9%B4%ED%8E%98/id6805019448) |
 
 | 팀 | 노랑토토 |
 |---|---|
