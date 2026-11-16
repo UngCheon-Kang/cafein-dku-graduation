@@ -18,7 +18,7 @@ import { Ionicons, MaterialCommunityIcons } from '@expo/vector-icons';
 import { getCafe, getCafeReviews, addBookmark, removeBookmark, deleteReview } from '../api';
 import { usePagedList } from '../hooks/usePagedList';
 import { requireLogin, getUser } from '../auth';
-import { timeAgo } from '../utils';
+import { timeAgo, isSafeWebUrl } from '../utils';
 import { colors, spacing, radius, font, shadow } from '../theme';
 import ReportSheet from '../components/ReportSheet';
 import ImageViewerModal from '../components/ImageViewerModal';
@@ -291,10 +291,10 @@ export default function CafeDetailScreen({ route, navigation }) {
           />
         </TouchableOpacity>
 
-        {cafe.sourceUrl ? (
+        {isSafeWebUrl(cafe.sourceUrl) ? (
           <TouchableOpacity
             style={styles.sourceOverlay}
-            onPress={() => Linking.openURL(cafe.sourceUrl).catch(() => {})}
+            onPress={() => Linking.openURL(cafe.sourceUrl.trim()).catch(() => {})}
           >
             <Text style={styles.sourceText}>출처</Text>
             <Ionicons name="open-outline" size={11} color={colors.white} />
