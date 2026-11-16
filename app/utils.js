@@ -27,3 +27,8 @@ export function timeAgo(dateString) {
   // 일주일 넘으면 날짜로
   return `${past.getMonth() + 1}월 ${past.getDate()}일`;
 }
+
+// 서버에서 받은 외부 링크는 http(s)만 허용 (tel:, intent:, 앱 딥링크 등 차단)
+export function isSafeWebUrl(url) {
+  return typeof url === 'string' && /^https?:\/\/[^\s]+$/i.test(url.trim());
+}
