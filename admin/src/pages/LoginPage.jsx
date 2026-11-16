@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Form, Input, Button, Card, message } from "antd";
 import { login } from "../api/admin";
+import { setAdminToken } from "../api/token";
 
 export default function LoginPage({ onLogin }) {
   const [loading, setLoading] = useState(false);
@@ -9,7 +10,7 @@ export default function LoginPage({ onLogin }) {
     setLoading(true);
     try {
       const data = await login(values.email, values.password);
-      localStorage.setItem("adminToken", data.accessToken);
+      setAdminToken(data.accessToken);
       message.success("로그인 성공");
       onLogin();
     } catch (e) {
