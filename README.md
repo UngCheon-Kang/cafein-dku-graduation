@@ -125,7 +125,9 @@ CAFEIN은 카공에 필요한 정보만 구조화했습니다.
 
 ### 2-3. 계정
 
-<img src="docs/mockups/mockup_account.png" width="52%">
+<div align="center">
+  <img src="docs/mockups/mockup_account.png" width="56%">
+</div>
 
 > 닉네임, 프로필 이미지, 이메일 등 개인을 식별할 수 있는 정보는 블러 처리했습니다.
 
