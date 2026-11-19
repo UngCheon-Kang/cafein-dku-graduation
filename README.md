@@ -2,6 +2,10 @@
 
 <img src="docs/banner.png" alt="CAFEIN" width="100%">
 
+https://github.com/user-attachments/assets/e53e6572-a4ff-46b9-b758-0a2db8010bad
+
+<sub><b>홍보 영상</b> — 38초 · 소리를 켜고 보시면 좋습니다</sub>
+
 <br/>
 
 [![App Store](https://img.shields.io/badge/App_Store-정식_출시-0D96F6?style=for-the-badge&logo=appstore&logoColor=white)](https://apps.apple.com/kr/app/%EC%B9%B4%ED%8E%98%EC%9D%B8-%EC%B9%B4%EA%B3%B5-%EC%B9%B4%ED%8E%98/id6805019448)
