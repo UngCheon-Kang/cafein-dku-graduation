@@ -104,7 +104,10 @@ CAFEIN은 카공에 필요한 정보만 구조화했습니다.
 
 <img src="docs/mockups/mockup_explore.png" width="100%">
 
-<img src="docs/screenshots/demo-explore.gif" width="230">
+<div align="center">
+  <img src="docs/screenshots/demo-explore.gif" width="250"><br/>
+  <sub><b>시연</b> — 지도 탐색 · 검색 · 마커 선택 · 카페 상세</sub>
+</div>
 
 ### 2-2. 리뷰 · 커뮤니티 · 채팅
 
@@ -113,7 +116,12 @@ CAFEIN은 카공에 필요한 정보만 구조화했습니다.
 
 <img src="docs/mockups/mockup_community.png" width="100%">
 
-<img src="docs/screenshots/demo-review.gif" width="230"> &nbsp; <img src="docs/screenshots/demo-chat.gif" width="230">
+<div align="center">
+  <img src="docs/screenshots/demo-review.gif" width="250">
+  &nbsp;&nbsp;
+  <img src="docs/screenshots/demo-chat.gif" width="250"><br/>
+  <sub><b>시연</b> — 리뷰 작성 (왼쪽) · 1:1 실시간 채팅 (오른쪽)</sub>
+</div>
 
 ### 2-3. 계정
 
