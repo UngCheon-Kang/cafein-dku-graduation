@@ -1,11 +1,34 @@
-# CAFEIN — 카공 특화 카페 리뷰·커뮤니티 서비스
+<div align="center">
 
-> 단국대학교 소프트웨어학과 졸업작품 (2026)
-> 실제 운영 중인 서비스입니다. [Google Play](https://play.google.com/store/apps/details?id=com.kangungcheon.crcapp) · [App Store](https://apps.apple.com/kr/app/%EC%B9%B4%ED%8E%98%EC%9D%B8-%EC%B9%B4%EA%B3%B5-%EC%B9%B4%ED%8E%98/id6805019448)
+<img src="docs/banner.png" alt="CAFEIN" width="100%">
 
-카페에서 공부하는 사람(카공족)을 위해 **와이파이 / 콘센트 / 좌석 / 소음** 네 가지 지표로
-카페를 찾고 공유하는 모바일 서비스입니다.
-App Store와 Google Play에 정식 출시되어 실제 사용자가 쓰고 있습니다.
+<br/>
+
+[![App Store](https://img.shields.io/badge/App_Store-정식_출시-0D96F6?style=for-the-badge&logo=appstore&logoColor=white)](https://apps.apple.com/kr/app/%EC%B9%B4%ED%8E%98%EC%9D%B8-%EC%B9%B4%EA%B3%B5-%EC%B9%B4%ED%8E%98/id6805019448)
+[![Google Play](https://img.shields.io/badge/Google_Play-정식_출시-34A853?style=for-the-badge&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=com.kangungcheon.crcapp)
+[![Demo](https://img.shields.io/badge/시연_영상-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=lnTZRzpQXUg)
+[![Report](https://img.shields.io/badge/결과보고서-1A2333?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](docs/CAFEIN_결과보고서.pdf)
+
+**단국대학교 소프트웨어학과 2026 졸업작품** &nbsp;·&nbsp; 팀 노랑토토
+
+카페에서 공부하는 사람(카공족)을 위해 **와이파이 · 콘센트 · 좌석 · 소음** 네 가지 지표로<br/>
+카페를 찾고 공유하는 모바일 서비스입니다. 두 앱 마켓에 정식 출시되어 실제 사용자가 쓰고 있습니다.
+
+<br/>
+
+<img src="https://img.shields.io/badge/React_Native-0.81-61DAFB?style=flat-square&logo=react&logoColor=black">
+<img src="https://img.shields.io/badge/Expo_SDK-54-000020?style=flat-square&logo=expo&logoColor=white">
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white">
+<img src="https://img.shields.io/badge/Java-17-ED8B00?style=flat-square&logo=openjdk&logoColor=white">
+<img src="https://img.shields.io/badge/PostgreSQL_+_PostGIS-4169E1?style=flat-square&logo=postgresql&logoColor=white">
+<img src="https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white">
+<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
+<img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white">
+
+</div>
+
+---
 
 ## 제출 자료
 
