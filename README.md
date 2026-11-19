@@ -4,7 +4,7 @@
 
 https://github.com/user-attachments/assets/e53e6572-a4ff-46b9-b758-0a2db8010bad
 
-<sub><b>홍보 영상</b> — 38초</sub>
+<sub><b>홍보 영상</b> — 38초 &nbsp;|&nbsp; 전체 기능 시연은 <a href="https://www.youtube.com/watch?v=lnTZRzpQXUg">YouTube 시연 영상 (3분 10초)</a>에서 보실 수 있습니다</sub>
 
 <br/>
 
