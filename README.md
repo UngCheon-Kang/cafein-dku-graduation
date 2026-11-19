@@ -1,6 +1,9 @@
 <div align="center">
 
-<img src="docs/banner.png" alt="CAFEIN" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/banner_dark.png">
+  <img src="docs/banner.png" alt="CAFEIN" width="100%">
+</picture>
 
 <br/>
 
@@ -54,7 +57,7 @@
 | 테스트 | 비공개 테스트 12명 이상 · 2주 이상 실사용 후 피드백 반영 → 정식 출시 |
 | 플랫폼 | Android · iOS |
 
----
+<img src="docs/divider.png" width="100%">
 
 ## 1. 이런 문제를 풀었습니다
 
@@ -72,7 +75,7 @@ CAFEIN은 카공에 필요한 정보만 구조화했습니다.
 
 리뷰가 쌓이면 카페마다 평균 지표가 계산되고, 지도와 목록에서 **지표로 필터링**할 수 있습니다.
 
----
+<img src="docs/divider.png" width="100%">
 
 ## 2. 화면
 
@@ -81,46 +84,26 @@ CAFEIN은 카공에 필요한 정보만 구조화했습니다.
 지도에서 카공 지표로 필터링하고, 검색이나 마커 선택으로 카페 상세를 확인합니다.
 카페가 많은 지역은 클러스터로 묶어 표시합니다.
 
-<img src="docs/screenshots/demo-explore.gif" width="240">
+<img src="docs/mockups/mockup_explore.png" width="100%">
 
-| 홈 (평점순) | 지도 · 지표 필터 | 지도 · 클러스터링 | 카페 검색 |
-|---|---|---|---|
-| <img src="docs/screenshots/home.png" width="190"> | <img src="docs/screenshots/map.png" width="190"> | <img src="docs/screenshots/map-cluster.png" width="190"> | <img src="docs/screenshots/search.png" width="190"> |
+<img src="docs/screenshots/demo-explore.gif" width="230">
 
-### 2-2. 리뷰 작성
+### 2-2. 리뷰 · 커뮤니티 · 채팅
 
-와이파이·콘센트·좌석·소음 네 가지 지표를 선택하고 사진과 함께 등록하면,
-카페의 평균 지표와 평점에 바로 반영됩니다.
+지표 4종을 선택해 리뷰를 남기면 카페 평균 지표에 바로 반영됩니다.
+커뮤니티에서 스터디원을 모으고, 1:1 채팅으로 바로 연결됩니다.
 
-| 작성 과정 | 등록 결과 |
-|---|---|
-| <img src="docs/screenshots/demo-review.gif" width="240"> | <img src="docs/screenshots/review-result.png" width="240"> |
+<img src="docs/mockups/mockup_community.png" width="100%">
 
-### 2-3. 커뮤니티 · 스터디 모집
+<img src="docs/screenshots/demo-review.gif" width="230"> &nbsp; <img src="docs/screenshots/demo-chat.gif" width="230">
 
-카페 추천과 자유 글을 나누고, 장소·시간·정원을 지정해 스터디원을 모집합니다.
+### 2-3. 계정
 
-| 커뮤니티 피드 | 스터디 모집글 |
-|---|---|
-| <img src="docs/screenshots/community.png" width="240"> | <img src="docs/screenshots/feed.png" width="240"> |
-
-### 2-4. 실시간 채팅
-
-WebSocket(STOMP)으로 1:1 대화를 주고받습니다. 상대가 오프라인이면 푸시로 알립니다.
-
-| 대화 주고받기 | 채팅방 |
-|---|---|
-| <img src="docs/screenshots/demo-chat.gif" width="240"> | <img src="docs/screenshots/chat.png" width="240"> |
-
-### 2-5. 계정
-
-| 마이페이지 | 설정 |
-|---|---|
-| <img src="docs/screenshots/mypage.png" width="240"> | <img src="docs/screenshots/settings.png" width="240"> |
+<img src="docs/mockups/mockup_account.png" width="52%">
 
 > 닉네임, 프로필 이미지, 이메일 등 개인을 식별할 수 있는 정보는 블러 처리했습니다.
 
----
+<img src="docs/divider.png" width="100%">
 
 ## 3. 주요 기능
 
@@ -151,7 +134,7 @@ WebSocket(STOMP)으로 1:1 대화를 주고받습니다. 상대가 오프라인�
 ### 관리자 웹
 - 신고 처리, 사용자 정지 관리, 카페 대표 이미지 관리
 
----
+<img src="docs/divider.png" width="100%">
 
 ## 4. 시스템 구조
 
@@ -184,7 +167,7 @@ WebSocket(STOMP)으로 1:1 대화를 주고받습니다. 상대가 오프라인�
 - **스키마 관리**: Flyway로 버전 관리(V1~V11), 서버 기동 시 자동 마이그레이션
 - **지도 성능**: supercluster로 마커를 클러스터링해 카페가 많아도 프레임 드랍 없이 렌더링
 
----
+<img src="docs/divider.png" width="100%">
 
 ## 5. 기술 스택
 
@@ -197,7 +180,7 @@ WebSocket(STOMP)으로 1:1 대화를 주고받습니다. 상대가 오프라인�
 | 관리자 웹 | React 18, Vite, Ant Design |
 | 배포 | EAS Build → App Store · Google Play / GitHub PR → EC2 재배포 |
 
----
+<img src="docs/divider.png" width="100%">
 
 ## 6. 디렉터리 구조
 
@@ -231,7 +214,7 @@ CAFEIN은 **실제 사용자가 이용 중인 서비스**입니다.
 **평가를 위해 백엔드 소스 확인이 필요하시면, 요청하신 범위를 압축 파일로 제출하겠습니다.**
 결과보고서에 기재된 연락처로 말씀해 주시면 바로 보내드리겠습니다.
 
----
+<img src="docs/divider.png" width="100%">
 
 ## 7. 보안 처리
 
@@ -240,7 +223,7 @@ CAFEIN은 **실제 사용자가 이용 중인 서비스**입니다.
 - 이미지 업로드는 presigned URL로 폴더·확장자를 서버에서 검증한 뒤 발급합니다.
 - 인증 코드 발송·검증에 횟수 제한과 쿨다운(Redis)을 적용했습니다.
 
----
+<img src="docs/divider.png" width="100%">
 
 ## 8. 개발 및 배포
 
@@ -248,7 +231,7 @@ CAFEIN은 **실제 사용자가 이용 중인 서비스**입니다.
 - 서버는 `main`을 pull 하여 Docker Compose로 재빌드 배포
 - 앱은 EAS Build(클라우드)로 AAB를 생성해 Google Play에 업로드
 
----
+<img src="docs/divider.png" width="100%">
 
 ## 9. 참여자 및 역할
 
@@ -270,3 +253,12 @@ CAFEIN은 **실제 사용자가 이용 중인 서비스**입니다.
 
 > 이 저장소는 졸업작품 제출용으로 정리한 스냅샷입니다.
 > 개발 과정의 커밋/PR 기록(총 471개 커밋)과 백엔드 소스는 비공개 원본 저장소에 있으며, 요청 시 해당 범위를 압축 파일로 제출하겠습니다.
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/footer_dark.png">
+  <img src="docs/footer.png" alt="CAFEIN" width="100%">
+</picture>
+
+</div>
