@@ -212,6 +212,8 @@ WebSocket(STOMP)으로 1:1 대화를 주고받습니다. 상대가 오프라인�
 
 | 문서 | 내용 |
 |---|---|
+| [docs/requirements.md](docs/requirements.md) | 요구분석명세서 — 기능 요구사항 82건 |
+| [docs/screens.md](docs/screens.md) | 화면별 기능 확인서 — 화면 41종의 구성·이동·데이터 |
 | [docs/architecture.md](docs/architecture.md) | 시스템 구조와 요청 흐름 |
 | [docs/erd.md](docs/erd.md) | 데이터 모델 (ERD) |
 | [docs/api.md](docs/api.md) | API 설계, 인증 정책, 요청 제한 |
