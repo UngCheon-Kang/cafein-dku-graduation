@@ -4,7 +4,7 @@
 
 https://github.com/user-attachments/assets/e53e6572-a4ff-46b9-b758-0a2db8010bad
 
-<sub><b>홍보 영상</b> — 38초 · 소리를 켜고 보시면 좋습니다</sub>
+<sub><b>홍보 영상</b> — 38초</sub>
 
 <br/>
 
