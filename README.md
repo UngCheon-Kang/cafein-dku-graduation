@@ -1,9 +1,6 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/banner_dark.png">
-  <img src="docs/banner.png" alt="CAFEIN" width="100%">
-</picture>
+<img src="docs/banner.png" alt="CAFEIN" width="100%">
 
 <br/>
 
@@ -256,9 +253,6 @@ CAFEIN은 **실제 사용자가 이용 중인 서비스**입니다.
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/footer_dark.png">
-  <img src="docs/footer.png" alt="CAFEIN" width="100%">
-</picture>
+<img src="docs/footer.png" alt="CAFEIN" width="100%">
 
 </div>
